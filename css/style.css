@@ -1,0 +1,508 @@
+#circlep {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(red, red, red, white, white, white) 50px;
+  border-radius: 300px;
+  border: 5px solid;
+  Margin-left: 310px;
+  animation: shake 5s infinite alternate;
+  overflow: hidden;
+}
+
+#rectanglep {
+  width: 301px;
+  height: 50px;
+  background: black;
+  position: relative;
+  top: 120px;
+}
+
+#circletwop {
+  width: 95px;
+  height: 95px;
+  background: white;
+  border-radius: 400px;
+  margin-left: -25px;
+  border: 10px solid;
+  position: relative;
+  top: -20px;
+  right: -120px;
+}
+
+#jpp {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  border: solid;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  box-shadow: 0 0 0 5px grey;
+  animation: caught 5s infinite;
+}
+
+body {}
+
+img {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 300px;
+  position: relative;
+  left: 315px;
+  top: -310px;
+  z-index: -1;
+}
+
+@keyframes example {
+  0% {
+    margin-left: 315px;
+  }
+  25% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 630px;
+  }
+}
+
+@keyframes caught {
+  0% {
+    background: white
+  }
+  100% {
+    background: red;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(35deg);
+  }
+  50% {
+    transform: rotate(-25deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* #placeholder{
+  width:500px;
+    height:100px;
+  background: black;
+} */
+
+#circleg {
+  overflow: hidden;
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(blue, blue, blue, white, white, white);
+  border-radius: 50%;
+  border: 5px solid;
+  /*   Margin-left: 310px;  */
+  animation: shake 4s infinite alternate;
+  shape-outside: circle(100%);
+}
+
+#rectangleg {
+  width: 400px;
+  height: 50px;
+  background: black;
+  position: relative;
+  top: 120px;
+}
+
+#circletwog {
+  width: 95px;
+  height: 95px;
+  background: white;
+  border-radius: 400px;
+  margin-left: -25px;
+  border: 10px solid;
+  position: relative;
+  top: -20px;
+  right: -120px;
+}
+
+#jpg {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  border: solid;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  box-shadow: 0 0 0 5px grey;
+  animation: caught 3s infinite;
+}
+
+body {}
+
+img {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 300px;
+  position: relative;
+  left: 315px;
+  top: -310px;
+  z-index: -1;
+}
+
+@keyframes example {
+  0% {
+    margin-left: 315px;
+  }
+  25% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 630px;
+  }
+}
+
+@keyframes caught {
+  0% {
+    background: white
+  }
+  100% {
+    background: red;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(35deg);
+  }
+  50% {
+    transform: rotate(-25deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+#rectangletwog {
+  width: 20px;
+  height: 100px;
+  background: red;
+  position: relative;
+  left: 40px;
+  top: -35px;
+  transform: rotate(-45deg);
+  z-index 3;
+}
+
+#rectanglethreeg {
+  width: 20px;
+  height: 100px;
+  background: red;
+  position: relative;
+  left: 225px;
+  top: -135px;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+#circleu {
+  overflow: hidden;
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(#202020, #202020, #202020, #202020, white, white, white, white);
+  border-radius: 50%;
+  border: 5px solid;
+  /*   Margin-left: 310px;  */
+  animation: shake 3s infinite alternate;
+  shape-outside: circle(100%);
+}
+
+#rectangleu {
+  width: 400px;
+  height: 50px;
+  background: black;
+  position: relative;
+  top: 120px;
+}
+
+#circletwou {
+  width: 95px;
+  height: 95px;
+  background: white;
+  border-radius: 400px;
+  margin-left: -25px;
+  border: 10px solid;
+  position: relative;
+  top: -20px;
+  right: -120px;
+}
+
+#jpu {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  border: solid;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  box-shadow: 0 0 0 5px grey;
+  animation: caught 2s infinite;
+}
+
+body {}
+
+img {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 300px;
+  position: relative;
+  left: 315px;
+  top: -310px;
+  z-index: -1;
+}
+
+@keyframes example {
+  0% {
+    margin-left: 315px;
+  }
+  25% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 630px;
+  }
+}
+
+@keyframes caught {
+  0% {
+    background: white
+  }
+  100% {
+    background: red;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(35deg);
+  }
+  50% {
+    transform: rotate(-25deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+#rectangletwou {
+  width: 20px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  left: 40px;
+  top: -35px;
+  /*      transform: rotate(-45deg); */
+  z-index 3;
+}
+
+#rectanglethreeu {
+  width: 20px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  left: 225px;
+  top: -135px;
+  /*      transform: rotate(45deg); */
+  z-index: 1;
+}
+
+#circle {
+  overflow: hidden;
+  float: left;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(purple, purple, purple, purple, white, white, white, white);
+  border-radius: 50%;
+  border: 5px solid;
+  /*   Margin-left: 310px;  */
+  animation: shake 1s infinite alternate;
+  shape-outside: circle(100%);
+}
+
+#rectangle {
+  width: 400px;
+  height: 50px;
+  background: black;
+  position: relative;
+  top: 120px;
+}
+
+#circletwo {
+  width: 95px;
+  height: 95px;
+  background: white;
+  border-radius: 400px;
+  margin-left: -25px;
+  border: 10px solid;
+  position: relative;
+  top: -20px;
+  right: -120px;
+}
+
+#jp {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  border: solid;
+  position: relative;
+  top: 12px;
+  left: 12px;
+  box-shadow: 0 0 0 5px grey;
+  animation: caught 1s infinite;
+}
+
+body {}
+
+img {
+  width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 300px;
+  position: relative;
+  left: 315px;
+  top: -310px;
+  z-index: -1;
+}
+
+@keyframes example {
+  0% {
+    margin-left: 315px;
+  }
+  25% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 630px;
+  }
+}
+
+@keyframes caught {
+  0% {
+    background: white
+  }
+  100% {
+    background: red;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-45deg);
+  }
+  25% {
+    transform: rotate(35deg);
+  }
+  50% {
+    transform: rotate(-25deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+h1 {
+  position: relative;
+  right: -120px;
+  top: -645px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+}
+
+#rectangletwo {
+  width: 300px;
+  height: 300px;
+  background: #ff66b2;
+  position: relative;
+  left: -200px;
+  top: -250px;
+  transform: rotate(-45deg);
+  z-index 3;
+  border-radius: 50%;
+}
+
+#rectanglethree {
+  width: 300px;
+  height: 300px;
+  background: #ff66b2;
+  position: relative;
+  left: 200px;
+  top: -540px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+#circlepr {
+  width: 300px;
+  height: 300px;
+  background: white 50px;
+  border-radius: 300px;
+  border: 5px solid;
+  Margin-left: 310px;
+  animation: shake 6s infinite alternate;
+  overflow: hidden;
+}
+
+#rectanglepr {
+  width: 301px;
+  height: 50px;
+  background: red;
+  position: relative;
+  top: 120px;
+}
+
+#circletwopr {
+  width: 95px;
+  height: 95px;
+  background: white;
+  border-radius: 400px;
+  margin-left: -25px;
+  border: 10px solid red;
+  position: relative;
+  top: -20px;
+  right: -120px;
+}
+
+#jppr {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50px;
+  border: solid;
+  position: relative;
+  top: 12px;
+  left: 13px;
+  box-shadow: 0 0 0 5px grey;
+  animation: caught 4s infinite;
+}
