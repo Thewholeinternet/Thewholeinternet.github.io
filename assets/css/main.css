@@ -54,6 +54,12 @@
 		height: 190px;
 	}
 
+	.ultra img {
+		margin-top: -20px;
+	}
+
+
+
 /* Box Model */
 
 	*, *:before, *:after {
